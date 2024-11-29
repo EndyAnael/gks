@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Beranda</title>
+
+    <style>
+        .navbar-collapse {
+            margin-top: 7px;
+        }
+
+        .navbar-nav li a {
+            transition: all 0.3s ease;
+            /* Tambahkan animasi transisi */
+            color: #000;
+            /* Default text color */
+            text-decoration: none;
+            /* Hilangkan garis bawah */
+        }
+
+        .navbar-nav li a:hover {
+            color: #fff;
+            /* Ubah warna teks saat hover */
+            background-color: #229799;
+            /* Tambahkan latar belakang */
+            /* border-bottom: 2px solid #000;Warna border hitam */
+            border-radius: 5px;
+            /* Sudut melengkung */
+            padding: 5px 10px;
+            /* Tambahkan ruang di dalam elemen */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            /* Efek bayangan */
+            transition: all 0.3s ease;
+            /* Animasi transisi */
+        }
+
+        .card-img-overlay div {
+            background-color: rgba(0, 123, 255, 0.5) !important;
+            backdrop-filter: blur(1px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark" style="background-color: rgba(238, 238, 238, .9);">
+        <div class="container">
+            <a class="navbar-brand p-3 text-white" href="#" style="font-size:22px; font-weight: bold;">GKS PADADITA
+                BARAT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2">
+                    <li class="nav-item">
+                        <a class="nav-link p-3 text-white" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-3 text-white" href="./tKami.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-3 text-white" href="">Berita dan
+                            Pengumuman</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR -->
+
+    <!-- IMG BESAR GEREKA -->
+    <div class="container-fluid img-besar">
+        <div class="row">
+            <div class="col position-relative img-fluid" style="background-image:url('./img/gkspadiba.jpg') ;
+                background-size: cover;
+                background-position: center;
+                height: 658px;
+                margin-top: 87px;">
+
+                <!-- Overlay Semi-Transparan Gelap -->
+                <div
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;">
+                </div>
+
+                <!-- Tulisan di Atas Gambar -->
+                <div
+                    style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2; text-align: center;">
+                    <h2 style="color: white; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Tentang
+                        Gereja
+                        Kami</h2>
+                    <p style="color: white; margin-top: 10px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+                        Gereja kami adalah tempat ibadah yang memberikan kedamaian dan penguatan iman.
+                        Mari bergabung bersama kami untuk mendekatkan diri kepada Tuhan.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END IMG BESAR GEREKA -->
+
+    <!-- Kata Pengantar -->
+    <div class="container d-flex justify-content-center align-items-center mt-5">
+        <div class="col-md-12 bg-light p-5 shadow rounded">
+            <div class="row align-items-center">
+                <!-- Kolom teks -->
+                <div class="col-lg-8 col-12 text-center text-lg-start p-4">
+                    <h2 class="text-danger fw-bold">Dasar Alkitab</h2>
+                    <p class="mb-0" style="font-size: 19px; line-height: 1.8;">
+                        "Sebab di mana dua atau tiga orang berkumpul dalam nama-Ku, di situ Aku ada di tengah-tengah
+                        mereka."
+                        <br>
+                        <small><i>(Matius 18:20)</i></small>
+                    </p>
+                </div>
+                <!-- Kolom gambar -->
+                <div class="col-lg-4 col-12 d-flex justify-content-center align-items-center">
+                    <div style="
+                    background-image: url('https://cdn0-production-images-kly.akamaized.net/kXIZWqJoNeefFythvGMHjmuGgGs=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3508771/original/005712200_1626144727-rod-long-DRgrzQQsJDA-unsplash_Fotor.jpg');
+                    background-size: cover; 
+                    background-position: center; 
+                    height: 200px; 
+                    width: 100%; 
+                    max-width: 300px; 
+                    border-radius: 10px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END Kata Pengantar -->
+
+    <!-- Tentang Kami -->
+    <div class="container mt-3 py-5">
+        <div class="col-md-12 d-flex flex-wrap justify-content-center align-items-center rounded shadow p-5">
+            <!-- Gambar -->
+            <div class="col-md-4 text-center mb-4 mb-md-0">
+                <img src="./img/gkspadiba.jpg" width="200" alt="Gambar Gereja" class="img-fluid rounded shadow">
+            </div>
+            <!-- Konten Teks -->
+            <div class="col-md-8 text-center text-md-start">
+                <h2 class="text-danger fw-bold mb-4">Tentang Gereja Kami</h2>
+                <p style="line-height: 1.8;">
+                    Gereja kami merupakan tempat ibadah yang penuh dengan kedamaian, kehangatan, dan persaudaraan.
+                    Kami mengundang Anda untuk bergabung bersama dalam pelayanan kepada Tuhan dan mempererat iman
+                    di tengah komunitas yang saling mendukung. Dengan lingkungan yang nyaman dan aktivitas rohani
+                    yang beragam, kami percaya Anda akan menemukan sukacita dan inspirasi di sini.
+                </p>
+                <a href="<?= base_url('Profil/tKami') ?>" class="btn btn-danger px-4 py-2">Pelajari Lebih Lanjut</a>
+            </div>
+        </div>
+    </div>
+    <!-- END Tentang Kami -->
+
+
+    <!-- DATA STATISTIK -->
+    <div class="container p-4 mt-4 mb-5 bg-light rounded shadow-sm">
+        <div class="row">
+            <div class="col">
+                <div class="p-1 text-white text-center">
+                    <h4>Data Statistik Gereja</h4>
+                </div>
+            </div>
+        </div>
+        <!-- Baris Pertama -->
+        <div class="row g-3">
+            <div class="col-md-3 col-sm-6">
+                <div class="p-3 text-dark text-center rounded">
+                    <span class="display-3 fw-bold">68,571</span>
+                    <p class="mb-0">Kepala Keluarga</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="p-3 text-dark text-center rounded">
+                    <span class="display-3 fw-bold">262,171</span>
+                    <p class="mb-0">Anggota Jemaat</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="p-3 text-dark text-center rounded">
+                    <span class="display-3 fw-bold">134,562</span>
+                    <p class="mb-0">Laki-laki</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="p-3 text-dark text-center rounded">
+                    <span class="display-3 fw-bold">127,609</span>
+                    <p class="mb-0">Perempuan</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Spacer -->
+        <div class="my-4">
+            <hr class="text-dark">
+        </div>
+
+        <!-- Baris Kedua -->
+        <div class="row g-3">
+            <div class="col-md-4 col-sm-6">
+                <div class="p-3 text-dark text-center rounded">
+                    <span class="display-3 fw-bold">4,609</span>
+                    <p class="mb-0">Calon Baptis</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="p-3 text-dark text-center rounded">
+                    <span class="display-3 fw-bold">87,811</span>
+                    <p class="mb-0">Anggota Baptis</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="p-3 text-dark text-center rounded">
+                    <span class="display-3 fw-bold">170,265</span>
+                    <p class="mb-0">Anggota Dewasa</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END DATA STATISTIK -->
+
+    <!-- FOOTER -->
+    <div class="container-fluid bg-dark p-5">
+        <div class="container bg-dark">
+            <div class=" row text-white d-flex flex-wrap">
+                <div class="col-lg-3 col-12">
+                    <div class="col p-1">
+                        <span style="font-size:26px;">GKS Padadita Barat</span>
+                        <hr>
+                        <ul class="list-unstyled mt-2" style="font-size: 13px;">
+                            <li>JL........ No... - Kecamatan Kambera</li>
+                            <li>Kabupaten Sumba Timur | 97113</li>
+                            <li>Email: gkspadaditabarat@gmail.com</li>
+                        </ul>
+                        <hr>
+                        <div class="col">
+                            <h5 class="mb-2">Sosial Media</h5>
+                            <div class="col mt-2">
+                                <a href="#" class="mx-1"><i class="fa-brands fa-facebook"
+                                        style="font-size: 25px;"></i></a>
+                                <a href="#" class="mx-1"><i class="fa-brands fa-instagram"
+                                        style="font-size: 25px;"></i></a>
+                                <a href="#" class="mx-1"><i class="fa-brands fa-youtube"
+                                        style="font-size: 25px;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-12">
+                    <div class="col p-1">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245.83564859807447!2d120.28189732793426!3d-9.6493597017451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c4c9b8b28a87bd3%3A0x6e13382aaf22c168!2sGKS%20PADADITA%20BARAT!5e0!3m2!1sid!2sid!4v1731752596005!5m2!1sid!2sid"
+                            width="100%" height="240" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <hr style="width: 100%; margin-top: 15px;">
+                </div>
+                <div class="col-12 d-flex flex-wrap">
+                    <div class="col-lg-9 col-12">
+                        <p style="font-size: 12px;">2024 © GKS Padadita Barat. All rights reserved.</p>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <p style="font-size: 12px;">Design By : Kelompok PKL Unkriswina Sumba</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
